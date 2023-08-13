@@ -1,0 +1,40 @@
+
+@media only screen and (min-width:48rem) {
+    .row{
+        margin-top: 100px;
+        margin-left: 350px;
+        width: 70%;
+    } 
+    body{
+        background-image: url("images/color2.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+      }
+}
+@media only screen and (max-width:48rem) {
+    .row{
+        margin-left: 25px;
+      margin-top: 20px;
+      width: 90%;
+     
+    } 
+} 
+
+/* Security answer */
+.s-answer{
+  margin-top: 10px;
+}
+#response{
+    resize: none;
+}
+@media only screen and (min-width:48rem) {
+    #submit-A{
+        margin-left: 230px;
+        margin-top: 20px;
+    } 
+}
+@media only screen and (max-width:48rem) {
+    #submit-A{
+        margin-top: 20px;
+    } 
+} 
